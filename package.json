@@ -1,0 +1,23 @@
+{
+  "name": "smarterjailmail",
+  "version": "0.0.1",
+  "description": "Extract data from smartMailJail.com as JSON for your prefered consumption",
+  "keywords": [
+    "scraper",
+    "smartJailMail"
+  ],
+  "homepage": "https://github.com/fielding/smarterjailmail",
+  "main": "lib/smarterJailMail.js",
+  "author": "Fielding Johnston <fielding@justfielding.com> (https://justfielding.com)",
+  "license": "MIT",
+  "repository": "fielding/smarterJailMail",
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.1.2",
+    "node-localstorage": "^1.3.1"
+  }
+}
