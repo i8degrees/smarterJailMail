@@ -1,9 +1,6 @@
 # smarterJailMail
 
-> Extract data from smartJailMail.com as JSON for your prefered consumption
-
-background details relevant to understanding what this module does/long
-description goes here
+> Extract data from smartJailMail.com for your prefered consumption
 
 ## Table of Contents
 
@@ -16,11 +13,17 @@ description goes here
 
 ## Background
 
-Background motivation
+Born out of the desire to scratch my own itch, I started this as a way to
+export sent and received message data/content for both archival purposes and
+for arbitrary consumption of the data. For example, exporting all messages to
+or from your significant other sent via smartJailMail.com, and then importing 
+those messages in to a custom chat client/system.
+
+### See Also
+
+- [`fielding/TBD`](https://github.com/fielding/TBD)
 
 ## Install
-
-With [npm](https://npmjs.org/) installed, run
 
 ```
 $ npm install smarterJailMail
@@ -29,25 +32,20 @@ $ npm install smarterJailMail
 ## Usage
 
 ```js
-wee
+const smarterJailMail = require('smarterJailMail');
+
+smarterJailMail()
+  .then(data => console.log(JSON.stringify(data, null, 4)));
+
 ```
-
-### CLI
-
-## See Also
-
-- [`fielding/TBD`](https://github.com/fielding/TBD)
-- ...
 
 ## API
 
-```js
-const smarterJailMail = require('smarterJailMail');
-```
+coming soon...
 
 ## Contribute
 
-PRs accepted.
+Contributions are welcome!
 
 ## License
 
