@@ -1,7 +1,7 @@
 {
   "name": "smarterjailmail",
   "version": "0.0.1",
-  "description": "Extract data from smartMailJail.com as JSON for your prefered consumption",
+  "description": "Extract data from smartMailJail.com for your prefered consumption",
   "keywords": [
     "scraper",
     "smartJailMail"
