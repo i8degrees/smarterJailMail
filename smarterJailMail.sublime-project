@@ -1,0 +1,55 @@
+{
+  "folders":
+  [
+    {
+      "path": ".",
+      "file_exclude_patterns": [ "*.sublime-workspace" ],
+      "folder_exclude_patterns": [ "build", "tmp" ]
+    }
+  ],
+
+  "settings":
+  {
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true
+  },
+  "SublimeLinter":
+  {
+    "paths": {
+      "osx": [
+        "${project}/node_modules/.bin",
+        "/Users/jeff/.nodenv/shims",
+      ],
+      "linux": [
+        "${project}/node_modules/.bin",
+        "/home/jeff/.nodenv/shims",
+      ],
+      "windows": []
+    },
+    "linters":
+    {
+      "markdownlint": {
+        "chdir": "${file_path}",
+        "@disable": false,
+        "args": [
+          "--config",
+          "${file_path}/.markdownlint.json",
+          "--config",
+          "${project}/.markdownlint.json",
+        ],
+        "excludes": [],
+      },
+      "eslint": {
+        "chdir": "${file_path}",
+        "@disable": false,
+        "args": [
+          "--config",
+          "${file_path}/.eslintrc",
+          "--config",
+          "${project}/.eslintrc",
+        ],
+        "excludes": [],
+      }
+    }
+  }
+}
