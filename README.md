@@ -26,7 +26,7 @@ those messages in to a custom chat client/system.
 ## Install
 
 ```
-$ npm install smarterJailMail
+$ npm install smarterJailMail@latest
 ```
 
 ## Usage
