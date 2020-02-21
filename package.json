@@ -10,7 +10,8 @@
   "main": "lib/smarterJailMail.js",
   "author": "Fielding Johnston <fielding@justfielding.com> (https://justfielding.com)",
   "maintainers": [
-    "Jeffrey Carpenter <jeff@n64.in>"
+	"Jeffrey Carpenter <i8degrees@gmail.com>",
+    "Fielding Johnston <fielding@justfielding.com> (https://justfielding.com)"
   ],
   "license": "MIT",
   "repository": "fielding/smarterJailMail",
